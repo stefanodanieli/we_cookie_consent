@@ -1,6 +1,6 @@
 <?php
 
-namespace Websedit\WeCookieConsent\ViewHelpers;
+namespace Polimiacre\WeCookieConsent\ViewHelpers;
 
 class ScriptTagViewHelper extends AbstractViewHelper
 {

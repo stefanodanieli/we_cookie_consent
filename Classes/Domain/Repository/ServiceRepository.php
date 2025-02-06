@@ -1,6 +1,6 @@
 <?php
 
-namespace Websedit\WeCookieConsent\Domain\Repository;
+namespace Polimiacre\WeCookieConsent\Domain\Repository;
 
 use TYPO3\CMS\Core\Database\ConnectionPool;
 use TYPO3\CMS\Core\Utility\GeneralUtility;

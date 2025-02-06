@@ -1,6 +1,6 @@
 <?php
 
-namespace Websedit\WeCookieConsent\Hook;
+namespace Polimiacre\WeCookieConsent\Hook;
 
 /**
  * Prefill values after save

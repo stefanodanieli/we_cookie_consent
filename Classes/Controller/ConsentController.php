@@ -1,6 +1,6 @@
 <?php
 
-namespace Websedit\WeCookieConsent\Controller;
+namespace Polimiacre\WeCookieConsent\Controller;
 
 use TYPO3\CMS\Core\Information\Typo3Version;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
@@ -27,16 +27,16 @@ class ConsentController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControll
     /**
      * serviceRepository
      *
-     * @var \Websedit\WeCookieConsent\Domain\Repository\ServiceRepository
+     * @var \Polimiacre\WeCookieConsent\Domain\Repository\ServiceRepository
      */
     protected $serviceRepository = null;
 
     /**
      * Inject a service repository
      *
-     * @param \Websedit\WeCookieConsent\Domain\Repository\ServiceRepository $serviceRepository
+     * @param \Polimiacre\WeCookieConsent\Domain\Repository\ServiceRepository $serviceRepository
      */
-    public function injectServiceRepository(\Websedit\WeCookieConsent\Domain\Repository\ServiceRepository $serviceRepository)
+    public function injectServiceRepository(\Polimiacre\WeCookieConsent\Domain\Repository\ServiceRepository $serviceRepository)
     {
         $this->serviceRepository = $serviceRepository;
     }
@@ -44,7 +44,7 @@ class ConsentController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControll
     /**
      * Generate JSON data for the consent Modal
      *
-     * @param Websedit\WeCookieConsent\Domain\Model\Service
+     * @param Polimiacre\WeCookieConsent\Domain\Model\Service
      * @return \Psr\Http\Message\ResponseInterface
      */
     public function consentAction()
@@ -69,7 +69,7 @@ class ConsentController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControll
     /**
      * Show used cookies at the data privacy page
      *
-     * @param Websedit\WeCookieConsent\Domain\Model\Service
+     * @param Polimiacre\WeCookieConsent\Domain\Model\Service
      * @return \Psr\Http\Message\ResponseInterface
      */
     public function listAction()

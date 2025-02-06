@@ -1,10 +1,10 @@
 <?php
 
-namespace Websedit\WeCookieConsent\ViewHelpers\Format;
+namespace Polimiacre\WeCookieConsent\ViewHelpers\Format;
 
 use TYPO3Fluid\Fluid\Core\Rendering\RenderingContextInterface;
 
-class EscapeViewHelper extends \Websedit\WeCookieConsent\ViewHelpers\AbstractViewHelper
+class EscapeViewHelper extends \Polimiacre\WeCookieConsent\ViewHelpers\AbstractViewHelper
 {
     /**
      * @var bool

@@ -1,7 +1,7 @@
 <?php
 
 // Submodulename mod1
-use Websedit\WeCookieConsent\Controller\BackendController;
+use Polimiacre\WeCookieConsent\Controller\BackendController;
 
 return [
     'web_wecookieconsentmod1' => [

@@ -19,7 +19,7 @@ call_user_func(
                 'mod1', // Submodule key
                 '', // Position
                 [
-                    \Websedit\WeCookieConsent\Controller\BackendController::class => 'gtmWizard, jsonDownload',
+                    \Polimiacre\WeCookieConsent\Controller\BackendController::class => 'gtmWizard, jsonDownload',
                 ],
                 [
                     'access' => 'user,group',

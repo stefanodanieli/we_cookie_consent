@@ -1,6 +1,6 @@
 <?php
 
-namespace Websedit\WeCookieConsent\Controller;
+namespace Polimiacre\WeCookieConsent\Controller;
 
 use TYPO3\CMS\Backend\Attribute\Controller;
 use TYPO3\CMS\Backend\Template\ModuleTemplateFactory;
@@ -35,7 +35,7 @@ class BackendController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControll
      *
      * @param \Websedit\WeCookieConsent\Domain\Repository\ServiceRepository $serviceRepository
      */
-    public function injectServiceRepository(\Websedit\WeCookieConsent\Domain\Repository\ServiceRepository $serviceRepository)
+    public function injectServiceRepository(\Polimiacre\WeCookieConsent\Domain\Repository\ServiceRepository $serviceRepository)
     {
         $this->serviceRepository = $serviceRepository;
     }

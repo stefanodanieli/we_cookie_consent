@@ -1,11 +1,11 @@
 <?php
 
-namespace Websedit\WeCookieConsent\ViewHelpers\Format;
+namespace Polimiacre\WeCookieConsent\ViewHelpers\Format;
 
 /**
  * This is a backport of the TYPO3 9 JSON Viewhelper for TYPO3 7 compatibility. Can be removed is support is dropped
  */
-class JsonViewHelper extends \Websedit\WeCookieConsent\ViewHelpers\AbstractViewHelper
+class JsonViewHelper extends \Polimiacre\WeCookieConsent\ViewHelpers\AbstractViewHelper
 {
     /**
      * @var bool

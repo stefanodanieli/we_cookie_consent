@@ -1,6 +1,6 @@
 <?php
 
-namespace Websedit\WeCookieConsent\Domain\Model;
+namespace Polimiacre\WeCookieConsent\Domain\Model;
 
 
 /***
@@ -171,7 +171,7 @@ class Service extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     /**
      * Cookies die von diesem Service eingesetzt werden
      *
-     * @var \TYPO3\CMS\Extbase\Persistence\ObjectStorage<\Websedit\WeCookieConsent\Domain\Model\Cookie>
+     * @var \TYPO3\CMS\Extbase\Persistence\ObjectStorage<\Polimiacre\WeCookieConsent\Domain\Model\Cookie>
      * @TYPO3\CMS\Extbase\Annotation\ORM\Cascade remove
      * @TYPO3\CMS\Extbase\Annotation\ORM\Lazy
      */
@@ -671,10 +671,10 @@ class Service extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     /**
      * Adds a Cookie
      *
-     * @param \Websedit\WeCookieConsent\Domain\Model\Cookie $cooky
+     * @param \Polimiacre\WeCookieConsent\Domain\Model\Cookie $cooky
      * @return void
      */
-    public function addCooky(\Websedit\WeCookieConsent\Domain\Model\Cookie $cooky)
+    public function addCooky(\Polimiacre\WeCookieConsent\Domain\Model\Cookie $cooky)
     {
         $this->cookies->attach($cooky);
     }
@@ -682,10 +682,10 @@ class Service extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     /**
      * Removes a Cookie
      *
-     * @param \Websedit\WeCookieConsent\Domain\Model\Cookie $cookyToRemove The Cookie to be removed
+     * @param \Polimiacre\WeCookieConsent\Domain\Model\Cookie $cookyToRemove The Cookie to be removed
      * @return void
      */
-    public function removeCooky(\Websedit\WeCookieConsent\Domain\Model\Cookie $cookyToRemove)
+    public function removeCooky(\Polimiacre\WeCookieConsent\Domain\Model\Cookie $cookyToRemove)
     {
         $this->cookies->detach($cookyToRemove);
     }
@@ -693,7 +693,7 @@ class Service extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     /**
      * Returns the cookies
      *
-     * @return \TYPO3\CMS\Extbase\Persistence\ObjectStorage<\Websedit\WeCookieConsent\Domain\Model\Cookie> cookies
+     * @return \TYPO3\CMS\Extbase\Persistence\ObjectStorage<\Polimiacre\WeCookieConsent\Domain\Model\Cookie> cookies
      */
     public function getCookies()
     {
@@ -703,7 +703,7 @@ class Service extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     /**
      * Sets the cookies
      *
-     * @param \TYPO3\CMS\Extbase\Persistence\ObjectStorage<\Websedit\WeCookieConsent\Domain\Model\Cookie> $cookies
+     * @param \TYPO3\CMS\Extbase\Persistence\ObjectStorage<\Polimiacre\WeCookieConsent\Domain\Model\Cookie> $cookies
      * @return void
      */
     public function setCookies(\TYPO3\CMS\Extbase\Persistence\ObjectStorage $cookies)

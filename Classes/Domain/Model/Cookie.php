@@ -1,6 +1,6 @@
 <?php
 
-namespace Websedit\WeCookieConsent\Domain\Model;
+namespace Polimiacre\WeCookieConsent\Domain\Model;
 
 
 /***

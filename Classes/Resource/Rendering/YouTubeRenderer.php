@@ -1,6 +1,6 @@
 <?php
 
-namespace Websedit\WeCookieConsent\Resource\Rendering;
+namespace Polimiacre\WeCookieConsent\Resource\Rendering;
 
 use TYPO3\CMS\Core\Resource\FileInterface;
 use TYPO3\CMS\Core\Resource\FileReference;
